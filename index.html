@@ -1,484 +1,676 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<!--[if IE 8 ]><html class="no-js oldie ie8" lang="en"> <![endif]-->
+<!--[if IE 9 ]><html class="no-js oldie ie9" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html class="no-js" lang="en"> <!--<![endif]-->
 <head>
-    <meta charset="UTF-8">
-    <meta name="description" content="">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
-    <!-- Title  -->
-    <title>Smashem Crashem Artistry</title>
+   <!--- basic page needs
+   ================================================== -->
+   <meta charset="utf-8">
+	<title>Smashem Crashem Artistry</title>
+	<meta name="description" content="">  
+	<meta name="Emily Eileen Flowers" content="">
 
-    <!-- Favicon  -->
-    <link rel="icon" href="img/core-img/favicon.ico">
+   <!-- mobile specific metas
+   ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-    <!-- Style CSS -->
-    <link rel="stylesheet" href="style.css">
+ 	<!-- CSS
+   ================================================== -->
+   <link rel="stylesheet" href="css/base.css">
+   <link rel="stylesheet" href="css/vendor.css">  
+   <link rel="stylesheet" href="css/main.css">  
+
+   <!-- script
+   ================================================== -->
+	<script src="js/modernizr.js"></script>
+	<script src="js/pace.min.js"></script>
+
+   <!-- favicons
+	================================================== -->
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<link rel="icon" href="favicon.ico" type="image/x-icon">
 
 </head>
 
-<body>
-    <!-- Preloader Start -->
-    <div id="preloader">
-        <div class="preload-content">
-            <div id="sonar-load"></div>
-        </div>
-    </div>
-    <!-- Preloader End -->
+<body id="top">
 
-    <!-- Grids -->
-    <div class="grids d-flex justify-content-between">
-        <div class="grid1"></div>
-        <div class="grid2"></div>
-        <div class="grid3"></div>
-        <div class="grid4"></div>
-        <div class="grid5"></div>
-        <div class="grid6"></div>
-        <div class="grid7"></div>
-        <div class="grid8"></div>
-        <div class="grid9"></div>
-    </div>
+	<!-- header 
+   ================================================== -->
+   <header> 
 
-    <!-- ***** Main Menu Area Start ***** -->
-    <div class="mainMenu d-flex align-items-center justify-content-between">
-        <!-- Close Icon -->
-        <div class="closeIcon">
-            <i class="ti-close" aria-hidden="true"></i>
-        </div>
-        <!-- Logo Area -->
-        <div class="logo-area">
-            <a href="index.html">Smashem Crashem Artistry</a>
-        </div>
-        <!-- Nav -->
-        <div class="sonarNav wow fadeInUp" data-wow-delay="1s">
-            <nav>
-                <ul>
-                    <li class="nav-item active">
-                        <a class="nav-link" href="index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="about-me.html">About Me</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="services.html">Services</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="portfolio.html">Portfolio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="blog.html">Blog</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="elements.html">Elements</a>
-                    </li>
-                </ul>
-            </nav>
-        </div>
-        <!-- Copwrite Text -->
-        <div class="copywrite-text">
-            <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | Website Created by <i class="fa fa-heart-o" aria-hidden="true"></i> by Emily Flowers</a>
-<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-</p>
-        </div>
-    </div>
-    <!-- ***** Main Menu Area End ***** -->
+   	<div class="header-logo">
+	      <a href="index.html">Smashem Crashem Artistry</a>
+	   </div> 
 
-    <!-- ***** Header Area Start ***** -->
-    <header class="header-area">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-12">
-                    <div class="menu-area d-flex justify-content-between">
-                        <!-- Logo Area  -->
-                        <div class="logo-area">
-                            <a href="index.html">Smashem Crashem Artistry</a>
-                        </div>
+		<a id="header-menu-trigger" href="#0">
+		 	<span class="header-menu-text">Menu</span>
+		  	<span class="header-menu-icon"></span>
+		</a> 
 
-                        <div class="menu-content-area d-flex align-items-center">
-                            <!-- Header Social Area -->
-                            <div class="header-social-area d-flex align-items-center">
-                                <a href="#" data-toggle="tooltip" data-placement="bottom" title="Pinterest"><i class="fa fa-pinterest" aria-hidden="true"></i></a>
-                                <a href="#" data-toggle="tooltip" data-placement="bottom" title="Linkedin"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-                                <a href="#" data-toggle="tooltip" data-placement="bottom" title="Instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-                                <a href="#" data-toggle="tooltip" data-placement="bottom" title="Facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                                <a href="#" data-toggle="tooltip" data-placement="bottom" title="Twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                            </div>
-                            <!-- Menu Icon -->
-                            <span class="navbar-toggler-icon" id="menuIcon"></span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </header>
-    <!-- ***** Header Area End ***** -->
+		<nav id="menu-nav-wrap">
 
-    <!-- ***** Hero Area Start ***** -->
-    <section class="hero-area">
-        <div class="hero-slides owl-carousel">
-            <!-- Single Hero Slide -->
-            <div class="single-hero-slide bg-img slide-background-overlay" style="background-image: url(img/bg-img/slide1.jpg);">
-                <div class="container h-100">
-                    <div class="row h-100 align-items-end">
-                        <div class="col-12">
-                            <div class="hero-slides-content">
-                                <div class="line"></div>
-                                <h2>Pizza Love</h2>
-                                <p>Instead of opting for a typical romantic shoot; she chose a more conventional and delicious approach to her session.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Single Hero Slide -->
-            <div class="single-hero-slide bg-img slide-background-overlay" style="background-image: url(img/bg-img/slide2.jpg);">
-                <div class="container h-100">
-                    <div class="row h-100 align-items-end">
-                        <div class="col-12">
-                            <div class="hero-slides-content">
-                                <div class="line"></div>
-                                <h2>Room With A View</h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vel tortor facilisis, volutpat nulla placerat, tincidunt mi. Nullam vel orci dui. Suspendisse sit amet laoreet neque. Fusce sagittis suscipit sem.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Single Hero Slide -->
-            <div class="single-hero-slide bg-img slide-background-overlay" style="background-image: url(img/bg-img/slide3.jpg);">
-                <div class="container h-100">
-                    <div class="row h-100 align-items-end">
-                        <div class="col-12">
-                            <div class="hero-slides-content">
-                                <div class="line"></div>
-                                <h2>Thinking Of You</h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vel tortor facilisis, volutpat nulla placerat, tincidunt mi. Nullam vel orci dui. Suspendisse sit amet laoreet neque. Fusce sagittis suscipit sem.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Single Hero Slide -->
-            <div class="single-hero-slide bg-img slide-background-overlay" style="background-image: url(img/bg-img/slide4.jpg);">
-                <div class="container h-100">
-                    <div class="row h-100 align-items-end">
-                        <div class="col-12">
-                            <div class="hero-slides-content">
-                                <div class="line"></div>
-                                <h2>Waiting</h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vel tortor facilisis, volutpat nulla placerat, tincidunt mi. Nullam vel orci dui. Suspendisse sit amet laoreet neque. Fusce sagittis suscipit sem.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Single Hero Slide -->
-            <div class="single-hero-slide bg-img slide-background-overlay" style="background-image: url(img/bg-img/slide1.jpg);">
-                <div class="container h-100">
-                    <div class="row h-100 align-items-end">
-                        <div class="col-12">
-                            <div class="hero-slides-content">
-                                <div class="line"></div>
-                                <h2>Pizza Love</h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vel tortor facilisis, volutpat nulla placerat, tincidunt mi. Nullam vel orci dui. Suspendisse sit amet laoreet neque. Fusce sagittis suscipit sem.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Single Hero Slide -->
-            <div class="single-hero-slide bg-img slide-background-overlay" style="background-image: url(img/bg-img/slide2.jpg);">
-                <div class="container h-100">
-                    <div class="row h-100 align-items-end">
-                        <div class="col-12">
-                            <div class="hero-slides-content">
-                                <div class="line"></div>
-                                <h2>Room With A View</h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vel tortor facilisis, volutpat nulla placerat, tincidunt mi. Nullam vel orci dui. Suspendisse sit amet laoreet neque. Fusce sagittis suscipit sem.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Single Hero Slide -->
-            <div class="single-hero-slide bg-img slide-background-overlay" style="background-image: url(img/bg-img/slide3.jpg);">
-                <div class="container h-100">
-                    <div class="row h-100 align-items-end">
-                        <div class="col-12">
-                            <div class="hero-slides-content">
-                                <div class="line"></div>
-                                <h2></h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vel tortor facilisis, volutpat nulla placerat, tincidunt mi. Nullam vel orci dui. Suspendisse sit amet laoreet neque. Fusce sagittis suscipit sem.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Single Hero Slide -->
-            <div class="single-hero-slide bg-img slide-background-overlay" style="background-image: url(img/bg-img/slide4.jpg);">
-                <div class="container h-100">
-                    <div class="row h-100 align-items-end">
-                        <div class="col-12">
-                            <div class="hero-slides-content">
-                                <div class="line"></div>
-                                <h2>Mountains Hike</h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vel tortor facilisis, volutpat nulla placerat, tincidunt mi. Nullam vel orci dui. Suspendisse sit amet laoreet neque. Fusce sagittis suscipit sem.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Single Hero Slide -->
-            <div class="single-hero-slide bg-img slide-background-overlay" style="background-image: url(img/bg-img/slide1.jpg);">
-                <div class="container h-100">
-                    <div class="row h-100 align-items-end">
-                        <div class="col-12">
-                            <div class="hero-slides-content">
-                                <div class="line"></div>
-                                <h2>Sand Storm</h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vel tortor facilisis, volutpat nulla placerat, tincidunt mi. Nullam vel orci dui. Suspendisse sit amet laoreet neque. Fusce sagittis suscipit sem.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Single Hero Slide -->
-            <div class="single-hero-slide bg-img slide-background-overlay" style="background-image: url(img/bg-img/slide2.jpg);">
-                <div class="container h-100">
-                    <div class="row h-100 align-items-end">
-                        <div class="col-12">
-                            <div class="hero-slides-content">
-                                <div class="line"></div>
-                                <h2>New York View</h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vel tortor facilisis, volutpat nulla placerat, tincidunt mi. Nullam vel orci dui. Suspendisse sit amet laoreet neque. Fusce sagittis suscipit sem.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Single Hero Slide -->
-            <div class="single-hero-slide bg-img slide-background-overlay" style="background-image: url(img/bg-img/slide3.jpg);">
-                <div class="container h-100">
-                    <div class="row h-100 align-items-end">
-                        <div class="col-12">
-                            <div class="hero-slides-content">
-                                <div class="line"></div>
-                                <h2>Thinking Of You</h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vel tortor facilisis, volutpat nulla placerat, tincidunt mi. Nullam vel orci dui. Suspendisse sit amet laoreet neque. Fusce sagittis suscipit sem.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Single Hero Slide -->
-            <div class="single-hero-slide bg-img slide-background-overlay" style="background-image: url(img/bg-img/slide4.jpg);">
-                <div class="container h-100">
-                    <div class="row h-100 align-items-end">
-                        <div class="col-12">
-                            <div class="hero-slides-content">
-                                <div class="line"></div>
-                                <h2>Waiting</h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vel tortor facilisis, volutpat nulla placerat, tincidunt mi. Nullam vel orci dui. Suspendisse sit amet laoreet neque. Fusce sagittis suscipit sem.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- ***** Hero Area End ***** -->
+			<a href="#0" class="close-button" title="close"><span>Close</span></a>	
 
-    <!-- ***** Portfolio Area Start ***** -->
-    <div class="portfolio-area section-padding-100">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <div class="portfolio-title">
-                        <h2>“In photography there is a reality so subtle that it becomes more <span>real</span> than reality.”</h2>
-                    </div>
-                </div>
-            </div>
+	   	<h3>Smashem Crashem Artistry</h3>  
 
-            <div class="row justify-content-between">
-                <!-- Single Portfoio Area -->
-                <div class="col-12 col-md-5">
-                    <div class="single-portfolio-item mt-100 portfolio-item-1 wow fadeIn">
-                        <div class="backend-content">
-                            <img class="dots" src="img/core-img/dots.png" alt="">
-                            <h2>Reality</h2>
-                        </div>
-                        <div class="portfolio-thumb">
-                            <img src="img/bg-img/p1.png" alt="">
-                        </div>
-                        <div class="portfolio-meta">
-                            <p class="portfolio-date">Feb 02, 2018</p>
-                            <h2>Italy in the sunset</h2>
-                        </div>
-                    </div>
-                </div>
-                <!-- Single Portfoio Area -->
-                <div class="col-12 col-md-6">
-                    <div class="single-portfolio-item mt-230 portfolio-item-2 wow fadeIn">
-                        <div class="backend-content">
-                            <img class="dots" src="img/core-img/dots.png" alt="">
-                        </div>
-                        <div class="portfolio-thumb">
-                            <img src="img/bg-img/p2.png" alt="">
-                        </div>
-                        <div class="portfolio-meta">
-                            <p class="portfolio-date">Feb 02, 2018</p>
-                            <h2>Mountain Landscape</h2>
-                        </div>
-                    </div>
-                </div>
-            </div>
+			<ul class="nav-list">
+				<li class="current"><a class="smoothscroll" href="#home" title="">Home</a></li>
+				<li><a class="smoothscroll" href="#about" title="">About</a></li>
+				<li><a class="smoothscroll" href="#services" title="">Services</a></li>
+				<li><a class="smoothscroll" href="#portfolio" title="">Works</a></li>
+				<li><a class="smoothscroll" href="#contact" title="">Contact</a></li>						
+			</ul>	
 
-            <div class="row">
-                <!-- Single Portfoio Area -->
-                <div class="col-12 col-md-10">
-                    <div class="single-portfolio-item mt-100 portfolio-item-3 wow fadeIn">
-                        <div class="backend-content">
-                            <img class="dots" src="img/core-img/dots.png" alt="">
-                            <h2>Photography</h2>
-                        </div>
-                        <div class="portfolio-thumb">
-                            <img src="img/bg-img/p3.png" alt="">
-                        </div>
-                        <div class="portfolio-meta">
-                            <p class="portfolio-date">Feb 02, 2018</p>
-                            <h2>Foggy sunset over the lake</h2>
-                        </div>
-                    </div>
-                </div>
-            </div>
+			<p class="sponsor-text">
+				
+				<!-- Simply type	the promocode in the box labeled “Promo Code” when placing your order. -->
+			</p>			
 
-            <div class="row justify-content-end">
-                <!-- Single Portfoio Area -->
-                <div class="col-12 col-md-6">
-                    <div class="single-portfolio-item portfolio-item-4 wow fadeIn">
-                        <div class="backend-content">
-                            <img class="dots" src="img/core-img/dots.png" alt="">
-                        </div>
-                        <div class="portfolio-thumb">
-                            <img src="img/bg-img/p2.png" alt="">
-                        </div>
-                        <div class="portfolio-meta">
-                            <p class="portfolio-date">Feb 02, 2018</p>
-                            <h2>Clouds on mountain top</h2>
-                        </div>
-                    </div>
-                </div>
-            </div>
+			<ul class="header-social-list">
+	         <li>
+	         	<a href="https://www.facebook.com/smashemcrashemartistry"><i class="fa fa-facebook-square"></i></a>
+	         </li>
+	         <li>
+	         	<a href="https://www.instagram.com/smashemcrashem"><i class="fa fa-instagram"></i></a>
+	         </li>
+            <li>
+            	<a href="https://www.behance.net/smashemcra1e9f"><i class="fa fa-behance"></i></a>
+            </li>         
+	      </ul>		
 
-            <div class="row">
-                <!-- Single Portfoio Area -->
-                <div class="col-12 col-md-5">
-                    <div class="single-portfolio-item portfolio-item-5 wow fadeIn">
-                        <div class="backend-content">
-                            <img class="dots" src="img/core-img/dots.png" alt="">
-                            <h2>Hope</h2>
-                        </div>
-                        <div class="portfolio-thumb">
-                            <img src="img/bg-img/p5.png" alt="">
-                        </div>
-                        <div class="portfolio-meta">
-                            <p class="portfolio-date">Feb 02, 2018</p>
-                            <h2>Over the canion</h2>
-                        </div>
-                    </div>
-                </div>
-            </div>
+		</nav>  <!-- end #menu-nav-wrap -->
 
-            <div class="row justify-content-center">
-                <!-- Single Portfoio Area -->
-                <div class="col-12 col-md-4">
-                    <div class="single-portfolio-item portfolio-item-6 wow fadeIn">
-                        <div class="portfolio-thumb">
-                            <img src="img/bg-img/p6.png" alt="">
-                        </div>
-                        <div class="portfolio-meta">
-                            <p class="portfolio-date">Feb 02, 2018</p>
-                            <h2>Mirror lake</h2>
-                        </div>
-                    </div>
-                </div>
-            </div>
+	</header> <!-- end header -->  
 
-            <div class="row justify-content-end">
-                <!-- Single Portfoio Area -->
-                <div class="col-12 col-md-4">
-                    <div class="single-portfolio-item portfolio-item-7 wow fadeIn">
-                        <div class="backend-content">
-                            <img class="dots" src="img/core-img/dots.png" alt="">
-                            <h2>Future</h2>
-                        </div>
-                        <div class="portfolio-thumb">
-                            <img src="img/bg-img/p7.png" alt="">
-                        </div>
-                        <div class="portfolio-meta">
-                            <p class="portfolio-date">Feb 02, 2018</p>
-                            <h2>Mirror lake</h2>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- ***** Portfolio Area End ***** -->
 
-    <!-- ***** Call to Action Area Start ***** -->
-    <div class="sonar-call-to-action-area section-padding-0-100">
-        <div class="backEnd-content">
-            <h2>Dream</h2>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <div class="call-to-action-content wow fadeInUp" data-wow-delay="0.5s">
-                        <h2>I am an experienced photographer</h2>
-                        <h5>Let’s talk</h5>
-                        <a href="#" class="btn sonar-btn mt-100">contact me</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- ***** Call to Action Area End ***** -->
+   <!-- home
+   ================================================== -->
+   <section id="home">
 
-    <!-- ***** Footer Area Start ***** -->
-    <footer class="footer-area">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <!-- Copywrite Text -->
-                    <div class="copywrite-text">
-                        <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Emily Flowers</a>
-<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
-    <!-- ***** Footer Area End ***** -->
+   	<div class="overlay"></div>
 
-    <!-- jQuery (Necessary for All JavaScript Plugins) -->
-    <script src="js/jquery/jquery-2.2.4.min.js"></script>
-    <!-- Popper js -->
-    <script src="js/popper.min.js"></script>
-    <!-- Bootstrap js -->
-    <script src="js/bootstrap.min.js"></script>
-    <!-- Plugins js -->
-    <script src="js/plugins.js"></script>
-    <!-- Active js -->
-    <script src="js/active.js"></script>
+   	<div class="home-content-table">	
+		   <div class="home-content-tablecell">
+		   	<div class="row">
+		   		<div class="col-twelve">		   			
+			  		
+			  				<h3 class="animate-intro"> Emily Eileen Flowers </h3>
+				  			<h1 class="animate-intro">
+							Smashem Crashem  <br>
+							Artistry 
+				  			</h1>	
+
+				  			<div class="more animate-intro">
+				  				<a class="smoothscroll button stroke" href="#about">
+				  					Learn More
+				  				</a>
+				  			</div>							
+
+			  		</div> <!-- end col-twelve --> 
+		   	</div> <!-- end row --> 
+		   </div> <!-- end home-content-tablecell --> 		   
+		</div> <!-- end home-content-table -->
+
+		<ul class="home-social-list">
+	      <li class="animate-intro">
+	        	<a href="#"><i class="fa fa-facebook-square"></i></a>
+	      </li>
+	      <li class="animate-intro">
+	        	<a href="#"><i class="fa fa-twitter"></i></a>
+	      </li>
+	      <li class="animate-intro">
+	        	<a href="#"><i class="fa fa-instagram"></i></a>
+	      </li>
+         <li class="animate-intro">
+           	<a href="#"><i class="fa fa-behance"></i></a>
+         </li>
+	      <li class="animate-intro">
+	        	<a href="#"><i class="fa fa-dribbble"></i></a>
+	      </li>	      
+	   </ul> <!-- end home-social-list -->	
+
+		<div class="scrolldown">
+			<a href="#about" class="scroll-icon smoothscroll">		
+		   	SC Artistry		   	
+		   	<i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+			</a>
+		</div>			
+   
+   </section> <!-- end home -->
+
+
+   <!-- about
+   ================================================== -->
+   <section id="about">
+
+   	<div class="row about-wrap">
+   		<div class="col-full">
+
+   			<div class="about-profile-bg"></div>
+
+				<div class="intro">
+					<h3 class="animate-this">About Us</h3>
+	   			<p class="lead animate-this"><span>Smashem Crashem Artistry </span> is a creative mesh between digital and classical art perspective, based in Northern Michigan. We are composed of creative designers and experienced developers.</p>	
+				</div>   
+
+   		</div> <!-- end col-full  -->
+   	</div> <!-- end about-wrap  -->
+
+   </section> <!-- end about -->
+
+
+   <!-- about
+   ================================================== -->
+   <section id="services">
+
+   	<div class="overlay"></div>
+   	<div class="gradient-overlay"></div>
+   	
+   	<div class="row narrow section-intro with-bottom-sep animate-this">
+   		<div class="col-full">
+   			
+   				<h3>Services</h3>
+   			   <h1>What We Do.</h1>
+   			
+   			   <p class="lead">SC Artistry delivers a personalized one-on-one experiencein both creative and technical realms.We stand by our mission to get to know our clients before the beginning of any size project as to be able to deliver the best fitting end result. Lead Artist Emily Flowers specializes in Acrylic Painting, Dremel Work, Charcoal and Graphite. She is also a licensed MUA and Cosmetologist specializing in color corrections and Extensions. Also offered are photography packages with concentrations in editorial and boudoir themes. Dualistically, we also offer website development, maintenance, and marketing for the independent artist.</p>
+   			
+   	   </div> <!-- end col-full -->
+   	</div> <!-- end row -->
+
+   	<div class="row services-content">
+
+   		<div class="services-list block-1-2 block-tab-full group">
+
+	      	<div class="bgrid service-item animate-this">	
+
+	      		<span class="icon"><i class="icon-paint-brush"></i></span>            
+
+	            <div class="service-content">
+	            	<h3 class="h05">Contemporary Art and Design</h3>
+
+		            <p>Traditional artistry is a large part of our work as it is our roots to all other services we provide. Contact us for commission work or interest in purchasing current pieces
+	         		</p>	         		
+	         	</div> 	         	 
+
+				</div> <!-- end bgrid -->
+
+				<div class="bgrid service-item animate-this">	
+
+					<span class="icon"><i class="icon-earth"></i></span>                          
+
+	            <div class="service-content">	
+	            	<h3 class="h05">Web Design</h3>  
+
+		            <p> To further support our independent artist collective, we offer website and marketing personalized to best fit to maximize exposure of an individual's skillset.
+	         		</p>	         	
+	            </div>	                          
+
+			   </div> <!-- end bgrid -->
+
+			   <div class="bgrid service-item animate-this">
+
+			   	<span class="icon"><i class="icon-lego-block"></i></span>		            
+
+	            <div class="service-content">
+	            	<h3 class="h05">Photography</h3>
+
+		            <p>A picture is worth 1000 words, and gives tangibility to emotion and special moments. Although we specialize in maternity and boudoir themes, we are willing to take on any photography project given to us.
+	        			</p>
+	            </div> 	            	               
+
+			   </div> <!-- end bgrid -->
+
+				<div class="bgrid service-item animate-this">
+
+					<span class="icon"><i class="icon-megaphone"></i></span>	              
+
+	            <div class="service-content">
+	            	<h3 class="h05">Cosmetology</h3>
+
+		            <p> With 6 years in the industry, lead artist Emily Flowers also is a licensed cosmetologist and MUA and currently working at A Head of Time Salon in Oscoda, Michigan. Services include haircuts, balayage, color correction, extensions, nails, and makeup.
+	         		</p>	         		
+	            </div>                
+
+				</div> <!-- end bgrid -->			   
+
+	      </div> <!-- end services-list -->
+   		
+   	</div> <!-- end services-content -->   			
+
+   </section> <!-- end services -->
+
+
+   <!-- portfolio
+   ================================================== -->
+   <section id="portfolio">
+   	
+   	<div class="intro-wrap">
+
+   		<div class="row narrow section-intro with-bottom-sep animate-this">
+	   		<div class="col-twelve">
+	   			<h3>Showcase</h3>
+		   		<h1>See Our Featured Projects.</h1>  			
+		   		
+		   		<p class="lead">Below is a collection of highlights from each service offered. </p>	   			
+	   		</div>   		
+	   	</div> <!-- end row section-intro -->   		
+
+   	</div> <!-- end intro-wrap -->   	
+
+   	<div class="row portfolio-content">
+   		<div class="col-twelve">
+   			<div id="folio-wrap" class="bricks-wrapper">					
+
+   				<div class="brick folio-item">
+	               <div class="item-wrap animate-this" data-src="images/portfolio/gallery/g-shutterbug.jpg" data-sub-html="#01" > 	
+	                  <a href="#" class="overlay">
+	                  	<img src="images/portfolio/shutterbug.jpg" alt="Skaterboy">	                     
+	                     <div class="item-text">
+	                     	<span class="folio-types">
+		     					      Photography
+		     					   </span>
+		     					   <h3 class="folio-title">Eve</h3>	     					   
+		     					</div>                                        
+	                  </a>
+	                  <a href="https://www.behance.net/smashemcra1e9f" class='details-link' title="details">
+	                  	<i class="icon-link"></i>
+	                  </a>
+	               </div> <!-- end item-wrap -->
+						
+						<div id="01" class='hide'>
+							<h4>Eve</h4>
+							<p>Eve is a modern twist on the story of the biblical garden of Eden. <a href="https://www.behance.net/smashemcra1e9f">Details</a></p>
+						</div>
+	        		</div> <!-- end folio-item -->
+
+	        		<div class="brick folio-item">
+	               <div class="item-wrap animate-this" data-src="images/portfolio/gallery/g-yellowwall.jpg" data-sub-html="#02"> 	
+	                  <a href="#" class="overlay">
+	                  	<img src="images/portfolio/yellowwall.jpg" alt="Shutterbug">	                     
+	                     <div class="item-text">
+	                     	<span class="folio-types">
+		     					      Contemporary Art and Design
+		     					   </span>
+		     					   <h3 class="folio-title">Made for One Another</h3>  	     					   
+		     					</div>                                        
+	                  </a>
+	                  <a href="https://www.behance.net/smashemcra1e9f" class='details-link' title="details">
+	                  	<i class="icon-link"></i>
+	                  </a>
+	               </div> <!-- end item-wrap -->
+
+	               <div id="02" class='hide'>
+							<h4>Made for One Another</h4>
+							<p>Charcoal and graphite on Cold Press paper. <a href="https://www.behance.net/smashemcra1e9f">Details</a></p>
+						</div>	               
+	        		</div> <!-- end folio-item -->
+
+	        		<div class="brick folio-item">
+	               <div class="item-wrap animate-this" data-src="images/portfolio/gallery/g-architecture.jpg" data-sub-html="#03" >   	
+	                  <a href="#" class="overlay">
+	                  	<img src="images/portfolio/architecture.jpg" alt="Explore">	                     
+	                     <div class="item-text">	                     		     					    
+		     					   <span class="folio-types">
+		     					      Photography
+		     					   </span>
+		     					   <h3 class="folio-title">Glowing</h3>
+		     					</div>                                        
+	                  </a>
+	                  <a href="https://www.behance.net/smashemcra1e9f" class='details-link' title="details">
+	                  	<i class="icon-link"></i>
+	                  </a>
+	               </div> <!-- end item-wrap -->	
+
+	               <div id="03" class='hide'>
+							<h4>Glowing</h4>
+							<p>Maternity photography featuring a custom Mandala using Acrylic paint. <a href="https://www.behance.net/smashemcra1e9f">Details</a></p>
+						</div>               
+	        		</div> <!-- end folio-item -->
+
+					<div class="brick folio-item">
+	               <div class="item-wrap animate-this"  data-src="images/portfolio/gallery/g-minimalismo.jpg"  data-sub-html="#04" >
+	                  <a href="#" class="overlay">
+	                  	<img src="images/portfolio/minimalismo.jpg" alt="Minimalismo">	                     
+	                     <div class="item-text">	     					    
+		     					   <span class="folio-types">
+		     					      Cosmetology
+		     					   </span>
+		     					   <h3 class="folio-title">Undercut</h3>
+		     					</div>                                        
+	                  </a>
+	                  <a href="https://www.behance.net/smashemcra1e9f" class='details-link' title="details">
+	                  	<i class="icon-link"></i>
+	                  </a>
+	               </div> <!-- end item-wrap -->
+
+	               <div id="04" class='hide'>
+							<h4>Undercut</h4>
+							<p>Tropical inspired undercut and color using Pravana Vivids.  <a href="https://www.behance.net/smashemcra1e9f">Details</a></p>
+						</div>  	               
+	        		</div> <!-- end folio-item -->
+
+					<div class="brick folio-item">
+	               <div class="item-wrap animate-this"  data-src="images/portfolio/gallery/g-skaterboy.jpg"  data-sub-html="#05" >  	
+	                  <a href="#" class="overlay"></a>
+	                  	<img src="images/portfolio/skaterboy.jpg" alt="Bicycle">	                     
+	                     <div class="item-text">	     					    
+		     					   <span class="folio-types">
+		     					      Contemporary Art and Design
+		     					   </span>
+		     					   <h3 class="folio-title">Big City Dreams</h3>
+		     					</div>                                        
+	                  </a>
+	                  <a href="https://www.behance.net/smashemcra1e9f" class='details-link' title="details">
+	                  	<i class="icon-link"></i>
+	                  </a>
+	               </div> <!-- end item-wrap -->
+
+	               <div id="05" class='hide'>
+							<h4>Big City Dreams</h4>
+							<p>Mixed media on Canvas. <a href="https://www.behance.net/smashemcra1e9f">Details</a></p>
+						</div>	               
+	        		</div> <!-- end folio-item -->
+	           
+					<div class="brick folio-item">
+	               <div class="item-wrap animate-this"  data-src="images/portfolio/gallery/g-salad.jpg"  data-sub-html="#06">     	
+	                  <a href="#" class="overlay">
+	                  	<img src="images/portfolio/salad.jpg" alt="Salad">	                     
+	                     <div class="item-text">	     					    
+		     					   <span class="folio-types">
+		     					      Cosmetology
+		     					   </span>
+		     					   <h3 class="folio-title">Balayage</h3>
+		     					</div>                                        
+	                  </a>
+	                  <a href="https://www.behance.net/smashemcra1e9f" class='details-link' title="details">
+	                  	<i class="icon-link"></i>
+	                  </a>
+	               </div> <!-- end item-wrap -->
+
+	               <div id="06" class='hide'>
+							<h4>Balayage</h4>
+							<p>Subtle handpainted golden Highlights using Paul Mitchell and Redken color. <a href="www.behance.net/smashemcra1e9f">Details</a></p>
+						</div>	               
+	        		</div> <!-- end folio-item -->   				
+
+   			</div> <!-- end folio-wrap -->
+   		</div> <!-- end twelve -->
+   	</div> <!-- end portfolio-content -->   	
+
+   </section>  <!-- end portfolio -->
+
+
+   <!-- Testimonials Section
+   ================================================== -->
+   <section id="testimonials">
+
+   	<div class="row">
+   		<div class="col-twelve">
+   			<h2 class="animate-this">Contact Us.</h2>
+   		</div>   		
+   	</div>   	
+
+      <div class="row flex-container">
+    
+         <div id="testimonial-slider" class="flex-slider animate-this">
+
+            <ul class="slides">
+
+               <li>
+                  <p>
+                  For further information contact Emily at emilyflowers@smashemcrashemartistry.com
+                  </p> 
+
+                  <div class="testimonial-author">
+                    	<img src="images/avatars/user-02.jpg" alt="Author image">
+                    	<div class="author-info">
+                    		
+                    		<span class="position"></span>
+                    	</div>
+                  </div>                 
+             	</li> <!-- end slide -->
+
+               <li>
+                  <p>
+                  To set up a hair or nail appointment, contact A Head of Time Salon directly at (989)739 3168  
+                  </p>
+
+               	<div class="testimonial-author">
+                    
+                    		<span>A Head of Time</span>
+                    	</div>
+                  </div>                                         
+               </li> <!-- end slide -->
+
+            </ul> <!-- end slides -->
+
+         </div> <!-- end testimonial-slider -->         
+        
+      </div> <!-- end flex-container -->
+
+   </section> <!-- end testimonials -->
+
+
+	<!-- stats
+   ================================================== -->
+   <section id="clients">
+
+		<div class="row animate-this">
+			<div class="col-twelve">
+
+				<div class="client-lists owl-carousel">
+  					<div><img src="images/clients/mozilla.png" alt=""></div>
+  					<div><img src="images/clients/bower.png" alt=""></div>
+  					<div><img src="images/clients/codepen.png" alt=""></div>
+  					<div><img src="images/clients/envato.png" alt=""></div>
+  					<div><img src="images/clients/firefox.png" alt=""></div>
+  					<div><img src="images/clients/grunt.png" alt=""></div>
+  					<div><img src="images/clients/evernote.png" alt=""></div>
+  					<div><img src="images/clients/github.png" alt=""></div>
+  					<div><img src="images/clients/joomla.png" alt=""></div>
+  					<div><img src="images/clients/jQuery.png" alt=""></div>
+  					<div><img src="images/clients/wordpress.png" alt=""></div>
+				</div>
+				
+			</div> <!-- end col-twelve -->
+		</div> <!-- end row -->
+
+   </section> <!-- end clients -->
+
+
+	<!-- contact
+   ================================================== -->
+   <section id="contact">
+
+      <div class="overlay"></div>
+
+		<div class="row narrow section-intro with-bottom-sep animate-this">
+   		<div class="col-twelve">
+   			<h3>Contact</h3>
+   			<h1>Get In Touch.</h1>
+
+   			<p class="lead">We are nothing without our loyal clientele; e-mail or call for more information, or just to let us know how you think we're doing!</p>
+   		</div> 
+   	</div> <!-- end section-intro -->
+
+   	<div class="row contact-content">
+
+   		<div class="col-seven tab-full animate-this">
+
+   			<h5>Send Us A Message</h5>
+
+            <!-- form -->
+            <form name="contactForm" id="contactForm" method="post">     			
+
+               <div class="form-field">
+ 					   <input name="contactName" type="text" id="contactName" placeholder="Name" value="" minlength="2" required="">
+               </div>
+
+               <div class="row">
+                 	<div class="col-six tab-full">
+                 		<div class="form-field">
+                 			<input name="contactEmail" type="email" id="contactEmail" placeholder="Email" value="" required="">
+                 		</div>		      			   
+		            </div>
+	            	<div class="col-six tab-full">	            
+	            		<div class="form-field">
+	            			<input name="contactSubject" type="text" id="contactSubject" placeholder="Subject" value="">
+	                  </div>		     				   
+		            </div>
+               </div>
+                                         
+               <div class="form-field">
+	              	<textarea name="contactMessage" id="contactMessage" placeholder="message" rows="10" cols="50" required=""></textarea>
+	            </div> 
+
+               <div class="form-field">
+                  <button class="submitform">Submit</button>
+
+                  <div id="submit-loader">
+                     <div class="text-loader">Sending...</div>                             
+       			      <div class="s-loader">
+							  	<div class="bounce1"></div>
+							  	<div class="bounce2"></div>
+							  	<div class="bounce3"></div>
+							</div>
+						</div>
+               </div>
+
+      		</form> <!-- end form -->
+
+            <!-- contact-warning -->
+            <div id="message-warning"></div> 
+
+            <!-- contact-success -->
+      		<div id="message-success">
+               <i class="fa fa-check"></i>Your message was sent, thank you!<br>
+      		</div>
+
+         </div> <!-- end col-seven --> 
+
+         <div class="col-four tab-full contact-info end animate-this">
+
+         	<h5>Contact Information</h5>
+
+         	<div class="cinfo">
+	   			<h6>Where to Find Us</h6>
+	   			<p>
+	            	4601 Hillcrest Avenue<br>
+	            	Oscoda, MI<br>
+	            	48750 US
+	            </p>
+	   		</div> <!-- end cinfo -->
+
+	   		<div class="cinfo">
+	   			<h6>Email Us At</h6>
+	   			<p>
+	   				emilyflowers@smashemcrashemartistry.com<br>
+				   	smashemcrashem@gmail.com			     
+				   </p>
+	   		</div> <!-- end cinfo -->
+
+	   		<div class="cinfo">
+	   			<h6>Call Us At</h6>
+	   			<p>
+	   				Phone: (989)387 0144<br>
+				   	Salon: (989)739 3168 <br>
+				     	
+				   </p>
+	   		</div>
+
+         </div> <!-- end cinfo --> 
+
+   	</div> <!-- end row contact-content -->
+		
+	</section> <!-- end contact -->
+
+
+	<!-- footer
+   ================================================== -->
+	<footer>
+     	<div class="footer-main">
+
+   		<div class="row">  
+
+	      	<div class="col-five tab-full footer-about">       
+
+	            <h4 class="h05">SC Artistry.</h4>
+
+	            <p>Check out our entire gallery through our Affiliated Links.</p>	            
+
+		      </div> <!-- end footer-about -->
+
+	      	<div class="col-three tab-full footer-social">
+
+	      		<h4 class="h05">Follow Us.</h4>
+
+	      		<ul class="list-links">
+	      			<li><a href="https://www.facebook.com/smashemcrashemartistry">Facebook</a></li>
+						<li><a href="https://instagram.com/smashemcrashem">Instagram</a></li>
+						<li><a href="https://www.behance.net/smashemcra1e9f">Behance</a></li>					
+					</ul>
+
+	      	</div> <!-- end footer-social -->  
+
+	      	<div class="col-four tab-full footer-subscribe end">
+
+	      		<h4 class="h05">Get Notified.</h4>
+
+	      		<p>subscribe for updates and new projects!</p>
+
+	      		<div class="subscribe-form">
+	      	
+	      			<form id="mc-form" class="group" novalidate="true">
+
+							<input type="email" value="" name="dEmail" class="email" id="mc-email" placeholder="type email" required=""> 
+	   		
+			   			<!-- <input type="submit" name="subscribe" > -->
+			   			<button><i class="icon-mail"></i></button>
+		   	
+		   				<label for="mc-email" class="subscribe-message"></label>
+			
+						</form>
+
+	      		</div>
+	      	           	
+	      	</div> <!-- end footer-subscribe -->      	    
+
+	      </div> <!-- end row -->
+
+   	</div> <!-- end footer-main -->
+
+   	<div class="footer-bottom">
+
+      	<div class="row">
+
+      		<div class="col-twelve">
+	      		<div class="copyright">
+		         	<span>© Copyright SC Artistry 2019.</span> 
+		         	<span>Design by Emily Eileen Flowers</a></span>		         	
+		         </div>		               
+	      	</div>
+
+      	</div>   	
+
+      </div> <!-- end footer-bottom -->
+
+      <div id="go-top">
+		   <a class="smoothscroll" title="Back to Top" href="#top">
+		   	<i class="fa fa-long-arrow-up" aria-hidden="true"></i>
+		   </a>
+		</div>		
+   </footer>
+
+   <div id="preloader"> 
+    	<div id="loader"></div>
+   </div> 
+
+   <!-- Java Script
+   ================================================== --> 
+   <script src="js/jquery-2.1.3.min.js"></script>
+   <script src="js/plugins.js"></script>
+   <script src="js/main.js"></script>
 
 </body>
 
